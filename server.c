@@ -70,8 +70,8 @@ int main()
 
         read(nfp,buf,4096);
         printf("recv = %s\n",buf);
-    /*
-        if(-1 == write(nfp,"hello,welcome to my server \r\n",32))
+    
+        /*if(-1 == write(nfp,"hello,welcome to my server \r\n",32))
         {
             printf("write fail!\r\n");
             return -1;
